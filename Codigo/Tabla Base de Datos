@@ -2,14 +2,15 @@ Creacion de tabla en base de datos :
 
 DROP TABLE IF EXISTS sebastian_medel01_coderhouse.Api_NASA;
 CREATE TABLE sebastian_medel01_coderhouse.Api_NASA(
-    copyright VARCHAR(255),
-    fecha DATE PRIMARY KEY,
-    explanation VARCHAR(2000),
-    hdurl VARCHAR(255),
-    media_type VARCHAR(50),
-    service_version VARCHAR(10),
-    title VARCHAR(255),
-    url VARCHAR(255)
+    	Fecha DATE PRIMARY KEY,
+    	Explicacion VARCHAR(2000),
+		Url_Contenido VARCHAR(255),
+		Tipo_Contenido VARCHAR(50),
+    	Version_Servicio VARCHAR(10),
+    	Titulo_Contenido VARCHAR(255),
+    	Url VARCHAR(255),
+		Autor VARCHAR(255),
+    	Fecha_Carga TIMESTAMP
 );
 
 select * from sebastian_medel01_coderhouse.Api_NASA
